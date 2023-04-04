@@ -1,208 +1,206 @@
 .world {
-    width: 1920px;
-    height: 1080px;
+  width: 1920px;
+  height: 1080px;
 }
 /* 이미지 */
 img {
-    position: absolute;
+  position: absolute;
 }
 
-.html { 
-    width: 80px;
-    height: 80px;
+.html {
+  width: 80px;
+  height: 80px;
 }
 
 .css {
-    width: 83px;
-    height: 78px;
-    left: 5rem;
+  width: 83px;
+  height: 78px;
+  left: 5rem;
 }
 
 .js {
-    width: 90px;
-    height: 80px;
-    left: 10rem;
+  width: 90px;
+  height: 80px;
+  left: 10rem;
 }
 
 .nodejs {
-    width: 93px;
-    height: 90px;
-    left: 15.3rem;
-    top: 3.7rem;
+  width: 93px;
+  height: 90px;
+  left: 15.3rem;
+  top: 3.7rem;
 }
 
 /* 전체적인 레이아웃 */
 
 .container {
-    width: 100%;
-    height: 100%;
-    background: #d9dad8;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 100%;
+  height: 100%;
+  background: #d9dad8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .content {
-    width: 95%;
-    height: 85%;
-    display: flex;
+  width: 95%;
+  height: 85%;
+  display: flex;
 }
 
 .simple {
-    width: 40%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    padding: 0 0 0 3rem;
+  width: 40%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 0 3rem;
 }
 
 .detail {
-    width: 60%;
-    height: 100%;
-    display: flex;
-    flex-direction: row;
-    padding: 0 3rem 0 0;
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  padding: 0 3rem 0 0;
 }
 
 /* simple 디자인 */
 
 /* simple 세부 레이아웃 */
-.introduction { 
-    width: 100%;
-    height: 40%;
-}  /* 한줄소개 */
+.introduction {
+  width: 100%;
+  height: 40%;
+} /* 한줄소개 */
 
 .img {
-    width: 75%;
-    height: 60%;
+  width: 75%;
+  height: 60%;
 } /* 소개용이미지 */
 
 /* introduction 디자인 */
 .introduction p {
-    font-size: 2rem;
-    padding: 0 0 1.5rem 0;
-    font-weight: 600;
+  font-size: 2rem;
+  padding: 0 0 1.5rem 0;
+  font-weight: 600;
 }
 
 .introduction p:last-child {
-    font-size: 3rem;
-    font-weight: 800;
+  font-size: 3rem;
+  font-weight: 800;
 }
 
 span {
-    color: white;
-    text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+  color: white;
+  text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
 }
 
 span:hover {
-    color: rgb(36, 116, 20);
-    background:rgb(226, 228, 144);
-    text-shadow: none;
+  color: rgb(36, 116, 20);
+  background: rgb(226, 228, 144);
+  text-shadow: none;
 }
 
 /* 소개용이미지 디자인*/
 
 .me {
-    background-image: url("../image/qwer.jpeg");
-    background-size: contain;
-    background-position: 0% 50%;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 100%;
+  background-image: url("../image/qwer.jpeg");
+  background-size: contain;
+  background-position: 0% 50%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
 }
 
 /* detail 디자인 */
 
 /* detail 세부 레이아웃 */
 h1 {
-    color:rgb(36, 116, 20);
-    font-size: 2rem;
-    font-weight: 600;
-    margin: 0 0 2rem 0;
+  color: rgb(36, 116, 20);
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 0 0 2rem 0;
 }
 
 .firLine {
-    width: 50%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;  
-    flex-direction: column; 
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .secLine {
-    width: 50%;
-    height: 100%; 
+  width: 50%;
+  height: 100%;
 }
 
 /* about me 디자인 */
 .aboutMe {
-    width: 60%;
-    height: 40%;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+  width: 60%;
+  height: 40%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 } /* 나에 대한 간단한 정보 */
 
 .aboutMe p {
-    font-weight: 600;
-    font-size: 1.2rem;
-    padding: 0 0 1rem 0;
+  font-weight: 600;
+  font-size: 1.2rem;
+  padding: 0 0 1rem 0;
 }
 
 /* hobby 디자인 */
 .hobby {
-    width: 60%;
-    height: 30%;
+  width: 60%;
+  height: 30%;
 } /* 취미 */
 
 .hobby p {
-    font-weight: 600;
-    font-size: 1.2rem;
-    padding: 0 0 1rem 0;
+  font-weight: 600;
+  font-size: 1.2rem;
+  padding: 0 0 1rem 0;
 }
 
 /* techStack 디자인 */
 .techStack {
-    position: relative;
-    width: 60%;
-    height: 30%;
+  position: relative;
+  width: 60%;
+  height: 30%;
 } /* 기술스택 */
-
 
 /* 계기 디자인 */
 .meter {
-    width: 100%;
-    height: 40%;
-    display: flex;
-    flex-direction: column;
+  width: 100%;
+  height: 40%;
+  display: flex;
+  flex-direction: column;
 } /* 개발을 하게 된 계기 */
 
 .meter h1 {
-    margin: 3.8rem 0 1.5rem 0;
+  margin: 3.8rem 0 1.5rem 0;
 }
 
 .meter p {
-    font-weight: 600;
-    font-size: 1.2rem;
-    padding: 0 0 1rem 0;
-    line-height: 2.2rem;
+  font-weight: 600;
+  font-size: 1.2rem;
+  padding: 0 0 1rem 0;
+  line-height: 2.2rem;
 }
 
-
 .mbti {
-    width: 100%;
-    height: 60%;
+  width: 100%;
+  height: 60%;
 } /* mbti */
 
 .mbti p {
-    font-weight: 600;
-    font-size: 1.2rem;
-    padding: 0 0 2rem 0;
+  font-weight: 600;
+  font-size: 1.2rem;
+  padding: 0 0 2rem 0;
 }
 
 .mbtiImg {
-    width: 100%;
-    height: 73.8%;
-    background: rgba(30, 143, 255, 0.356);
+  width: 100%;
+  height: 73.8%;
+  background: rgba(30, 143, 255, 0.356);
 }
