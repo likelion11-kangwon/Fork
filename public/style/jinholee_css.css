@@ -1,0 +1,227 @@
+@import url("https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@font-face {
+  font-family: "NanumSquareNeo-Variable";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/NanumSquareNeo-Variable.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li::marker {
+  color: rgb(254, 198, 17);
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.motto-elements {
+  margin: 20px;
+  margin-left: 30px;
+}
+
+.img-logo {
+  width: 20px;
+}
+
+.div-link {
+  width: 150px;
+  cursor: pointer;
+  margin: 5px 0px 5px 0px;
+  float: left;
+}
+
+.highlight {
+  background: linear-gradient(to top, rgb(254, 198, 17) 40%, transparent 40%);
+}
+
+.bord-font {
+  font-weight: 900;
+  display: inline;
+}
+
+.subheading {
+  display: inline-block;
+  padding: 5px;
+  font-family: "Lato", sans-serif;
+  font-size: 24px;
+  background-color: rgb(254, 198, 17);
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+.contents-container {
+  width: 635px;
+  padding: 10px;
+}
+
+.img-hobby {
+  display: inline-block;
+  margin: 0px 5px;
+  border-radius: 10px;
+}
+
+#img-profile {
+  position: absolute;
+  width: 500px;
+  height: 400px;
+  border: solid 3px;
+  border-radius: 20px;
+  box-shadow: 10px 10px;
+  margin: 30px;
+  left: -353px;
+  top: -253px;
+}
+
+#body {
+  height: 100vh;
+  width: 100vw;
+  font-family: "NanumSquareNeo-Variable";
+  font-size: 30px;
+}
+
+#whole-div {
+  height: 1080px;
+  width: 1920px;
+}
+
+#vertical-div-first {
+  height: 1080px;
+  width: 650px;
+  float: left;
+  background-color: rgb(245, 245, 245);
+}
+
+#vertical-div-else {
+  height: 1080px;
+  width: 635px;
+  float: left;
+  overflow: hidden;
+  background-color: rgb(245, 245, 245);
+}
+
+#motto {
+  font-family: "Delicious Handrawn", cursive;
+  font-size: 70px;
+}
+
+.motto-bottom {
+  line-height: 40px;
+  margin: 60px 30px;
+}
+
+#motto-container {
+  height: 400px;
+  width: 600px;
+  padding-left: 40px;
+}
+
+#aboutme-container {
+  height: 260px;
+  width: 480px;
+  background-color: rgb(255, 255, 255);
+  border: solid 3px;
+  border-radius: 20px;
+  margin: 15px;
+  box-shadow: 10px 10px;
+}
+
+#aboutme-title {
+  font-size: 35px;
+  font-weight: bold;
+  margin: 20px 10px 10px 25px;
+}
+
+#aboutme-elements {
+  line-height: 40px;
+  font-size: 20px;
+  margin-left: 50px;
+}
+
+#hobby-container {
+  height: 700px;
+  margin-top: 150px;
+}
+
+#yellow-box1 {
+  position: relative;
+  height: 200px;
+  width: 200px;
+  background-color: rgb(254, 198, 17);
+  border-radius: 20px;
+  margin: 270px 0px 0px 350px;
+}
+
+#yellow-box2 {
+  position: relative;
+  height: 150px;
+  width: 150px;
+  background-color: rgb(254, 198, 17);
+  margin-right: 435px;
+  margin-top: 15px;
+  margin-left: 15px;
+  border-radius: 20px;
+}
+
+#motivation-container {
+  height: 200px;
+}
+
+#motivation-elements {
+  line-height: 30px;
+  font-size: 18px;
+  margin: 30px;
+}
+
+#stack-container {
+  height: 200px;
+}
+
+#mbti-container {
+  height: 600px;
+}
+#mbti-header {
+  font-family: "Lato", sans-serif;
+  font-size: 60px;
+  text-align: center;
+}
+#mbti-subheader {
+  text-align: center;
+}
+#img-mbti {
+  background-image: url("/public/image/jinmbti.png");
+  background-size: 350px;
+  width: 350px;
+  height: 350px;
+  margin: 30px auto;
+  text-align: center;
+}
+#img-stack {
+  background-image: url("/public/image/stack.png");
+  background-size: 370px 85px;
+  width: 370px;
+  height: 85px;
+  margin: 50px auto 10px auto;
+  text-align: center;
+}
+
+#cook {
+  background-size: 140px;
+  width: 140px;
+  height: 140px;
+}
+#photographer {
+  background-size: 200px;
+  width: 200px;
+  height: 200px;
+}
