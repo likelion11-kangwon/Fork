@@ -2,41 +2,13 @@
   width: 1920px;
   height: 1080px;
 }
-/* 이미지 */
-img {
-  position: absolute;
-}
-
-.html {
-  width: 80px;
-  height: 80px;
-}
-
-.css {
-  width: 83px;
-  height: 78px;
-  left: 5rem;
-}
-
-.js {
-  width: 90px;
-  height: 80px;
-  left: 10rem;
-}
-
-.nodejs {
-  width: 93px;
-  height: 90px;
-  left: 15.3rem;
-  top: 3.7rem;
-}
 
 /* 전체적인 레이아웃 */
 
 .container {
   width: 100%;
   height: 100%;
-  background: #d9dad8;
+  background: #f3f3f3;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -49,19 +21,26 @@ img {
 }
 
 .simple {
-  width: 40%;
+  position: relative;
+  width: 30%;
   height: 100%;
   display: flex;
   flex-direction: column;
   padding: 0 0 0 3rem;
+  background-color: #50ff38;
+  background-image: 
+    linear-gradient(to right, grey 1px, transparent 1px),
+    linear-gradient(to bottom, grey 1px, transparent 1px); /* 모눈종이 패턴 적용 */
+  background-size: 40px 40px; /* 모눈종이 패턴 크기 조정 */
+  background-position: 50% 38%;
+  z-index: 0;
 }
 
 .detail {
-  width: 60%;
+  width: 72%;
   height: 100%;
   display: flex;
   flex-direction: row;
-  padding: 0 3rem 0 0;
 }
 
 /* simple 디자인 */
@@ -70,72 +49,100 @@ img {
 .introduction {
   width: 100%;
   height: 40%;
+  padding: 4.5rem 0 0 0;
 } /* 한줄소개 */
 
 .img {
-  width: 75%;
-  height: 60%;
+  width: 77%;
+  height: 77%;
 } /* 소개용이미지 */
 
 /* introduction 디자인 */
 .introduction p {
   font-size: 2rem;
-  padding: 0 0 1.5rem 0;
+  padding: 0 0 1.7rem 0;
   font-weight: 600;
 }
 
-.introduction p:last-child {
-  font-size: 3rem;
+.big {
+  font-size: 3.2rem;
   font-weight: 800;
+  z-index: 100;
 }
 
-span {
-  color: white;
-  text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+.introShadow {
+  position: absolute;
+  width: 74%;
+  height: 10%;
+  background: black;
+  top: 305px;
+  left: 67.5px;
+  z-index: -1;
+  border-radius: 0.5rem;
 }
 
-span:hover {
-  color: rgb(36, 116, 20);
-  background: rgb(226, 228, 144);
-  text-shadow: none;
+.span {
+  color: rgb(8, 8, 8);
+  background: white;
+  padding: 0 10px 0 10px;
+  border-radius: 0.5rem;
+  outline: 2px solid black;
 }
 
 /* 소개용이미지 디자인*/
 
 .me {
-  background-image: url("../image/qwer.jpeg");
-  background-size: contain;
-  background-position: 0% 50%;
+  background-image: url("../image/outlineqwer.png");
+  background-position: 50% 70%;
   background-repeat: no-repeat;
-  width: 100%;
+  width: 120%;
   height: 100%;
 }
 
 /* detail 디자인 */
 
 /* detail 세부 레이아웃 */
-h1 {
-  color: rgb(36, 116, 20);
-  font-size: 2rem;
-  font-weight: 600;
+.h1 {
+  color: white;
+  font-size: 2.5rem;
   margin: 0 0 2rem 0;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-weight: 900;
+  /* border-radius: 0.5rem;
+  outline: 2px solid black; */
+  background: linear-gradient(to right, #092006,#123a0d, #50ff38);
+  text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
 }
 
 .firLine {
-  width: 50%;
+  position: relative;
+  width: 60%;
   height: 100%;
   display: flex;
   justify-content: center;
-  align-items: center;
   flex-direction: column;
+  align-items: center;
+  z-index: 0;
+  position: relative;
 }
 
 .secLine {
-  width: 50%;
+  position: relative;
+  width: 60%;
   height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  z-index: 0;
 }
 
+.textEmp {
+  background: #e4ff36;
+}
 /* about me 디자인 */
+
 .aboutMe {
   width: 60%;
   height: 40%;
@@ -145,36 +152,52 @@ h1 {
 } /* 나에 대한 간단한 정보 */
 
 .aboutMe p {
-  font-weight: 600;
-  font-size: 1.2rem;
+  font-weight: 1000;
+  font-size: 1.3rem;
   padding: 0 0 1rem 0;
 }
 
 /* hobby 디자인 */
+
 .hobby {
+  position: relative;
   width: 60%;
   height: 30%;
 } /* 취미 */
 
 .hobby p {
   font-weight: 600;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   padding: 0 0 1rem 0;
 }
 
 /* techStack 디자인 */
+
 .techStack {
   position: relative;
   width: 60%;
   height: 30%;
 } /* 기술스택 */
 
+.techStackImg {
+  width: 120%;
+  height: 30%;
+  background-image: url(../image//TSimg-removebg-preview.png);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 /* 계기 디자인 */
+
 .meter {
-  width: 100%;
+  position: relative;
+  top: -0.8%;
+  width: 60%;
   height: 40%;
   display: flex;
   flex-direction: column;
+  left: 10%;
 } /* 개발을 하게 된 계기 */
 
 .meter h1 {
@@ -185,22 +208,33 @@ h1 {
   font-weight: 600;
   font-size: 1.2rem;
   padding: 0 0 1rem 0;
-  line-height: 2.2rem;
+  line-height: 1.3rem;
 }
 
-.mbti {
-  width: 100%;
+.TWmbti {
+  position: relative;
+  left: 10%;
+  width: 60%;
   height: 60%;
 } /* mbti */
 
-.mbti p {
+.ENTJ {
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+.TWmbti p {
   font-weight: 600;
   font-size: 1.2rem;
-  padding: 0 0 2rem 0;
+  padding: 0 0 1rem 0;
 }
 
 .mbtiImg {
-  width: 100%;
-  height: 73.8%;
-  background: rgba(30, 143, 255, 0.356);
+  width: 125%;
+  height: 65%;
+  background-image: url("../image/TWmbti.png");
+  background-position: -20% 50%;
+  background-size: contain; 
+  background-repeat: no-repeat;
+  z-index: 100;
 }
