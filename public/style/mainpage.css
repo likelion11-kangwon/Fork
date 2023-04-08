@@ -1,0 +1,131 @@
+@font-face {
+    font-family: "NanumSquareNeo-Variable";
+    src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/NanumSquareNeo-Variable.woff2")
+      format("woff2");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+* {
+    margin: 0;
+}
+
+/* --------------------------TAG--------------------------- */
+
+h1, h2, h3, h4 {
+    position: absolute;
+    color: #565555;
+}
+
+h1 {
+    font-family: "NanumSquareNeo-Variable";
+    font-size: 80px;
+    left: 300px;
+    top: 300px;
+
+}
+
+h2 {
+    font-size: 50px;
+    left: 570px;
+    top: 450px;
+}
+
+h3 {
+    font-size: 100px;
+    color: #bdbdbd;
+    right: 30px;
+    bottom: 0;
+}
+
+h4 {
+    font-size: 30px;
+    color: #414141;
+    left: 20px;
+    bottom: 20px;
+}
+
+/* --------------------------CLASS--------------------------- */
+
+/* 오른쪽 small box들의 flex 컨테이너 */
+.container-row {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+
+/* 오른쪽 상단 small box */
+
+.container-row>div:first-child {
+    flex-basis: 160px;
+    width: 435px;
+    position: relative;
+}
+/* 오른쪽 small box */
+.container-row>div:nth-child(n+2) {
+    flex-basis: 230px;
+    width: 435px;
+    position: relative;
+}
+
+
+/* --------------------------ID--------------------------- */
+
+#body {
+    width: 1920px;
+    height: 1080px;
+    background-color: rgb(245, 245, 245);
+}
+
+#maindiv {
+    width: 1920px; 
+    height: 1080px;
+    margin: auto; 
+    background-color: rgb(245, 245, 245);
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    position: relative;
+    overflow: hidden;
+}
+
+/* 화면 전체 구성하는 big box */
+#maindiv>div {
+    height: 1080px;
+}
+#maindiv>div:nth-child(1) {
+    width: 900px;
+}
+#maindiv>div:nth-child(n+2) {
+    width: 435px;
+    border-left : medium solid #d8d8d8;
+}
+#maindiv>div:nth-child(4) {
+    width: 150px; 
+    border-left : medium solid #d8d8d8; 
+}
+
+
+/* 멋사 사자 */
+#img-mslion {
+    width: 400px;
+    position: absolute;
+    left: -210px;
+    top:300px;
+}
+
+/* 여기에 각자 넣고 싶은 사진 */
+#img-box-first {
+    background-image: url();
+}
+#img-box-second {
+    background-image: url();
+}
+#img-box-third {
+    background-image: url();
+}
+#img-box-fourth {
+    background-image: url();
+}
