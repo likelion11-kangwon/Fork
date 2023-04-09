@@ -38,7 +38,7 @@ nav {
   width: 100vw;
   min-height: 4.5rem;
   background: white;
-  box-shadow: 0 -2px 1rem #CFD2CD;
+  box-shadow: 0 -2px 1rem #cfd2cd;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -85,7 +85,8 @@ nav a.menu-btn {
 nav a#user-btn {
   color: #1d1d1d;
 }
-nav a.tab:not(.placeholder), nav a.tab:not(.placeholder)::after {
+nav a.tab:not(.placeholder),
+nav a.tab:not(.placeholder)::after {
   border: none;
   outline: none;
   cursor: pointer;
@@ -94,7 +95,8 @@ nav a.tab:not(.placeholder), nav a.tab:not(.placeholder)::after {
   font-size: 1rem;
   vertical-align: center;
 }
-nav a.tab:not(.placeholder)::before, nav a.tab:not(.placeholder)::after {
+nav a.tab:not(.placeholder)::before,
+nav a.tab:not(.placeholder)::after {
   position: absolute;
   top: 0;
   left: 0;
