@@ -82,12 +82,12 @@ h4 {
 #maindiv {
   width: 1920px;
   height: 1080px;
-  margin: 0%;
+  margin: auto;
   background-color: rgb(245, 245, 245);
   display: flex;
   align-items: center;
   flex-direction: row;
-  position: fixed;
+  position: relative;
   overflow: hidden;
 }
 
