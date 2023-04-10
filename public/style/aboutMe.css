@@ -99,6 +99,42 @@
   height: 100%;
 }
 
+.twLogo {
+  position: absolute;
+  width: 90%;
+  height: 5%;
+  bottom: 5px;
+  display: flex;
+  justify-content: end;
+}
+
+.twGithub {
+  width: 9%;
+  height: 100%;
+  z-index: 1000;
+  background: white;
+  border-radius: 5rem;
+  margin: 0 0 15px 0;
+}
+
+.githubImg {
+  width: 100%;
+  height: 100%;
+}
+
+.twInsta {
+  width: 9%;
+  height: 100%;
+  z-index: 1000;
+  margin: 0 5px 0 5px;
+}
+
+.InstaImg {
+  width: 100%;
+  height: 100%;
+}
+
+
 /* detail 디자인 */
 
 /* detail 세부 레이아웃 */
