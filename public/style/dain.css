@@ -15,6 +15,11 @@ img {
   height: 95%;
   float: left;
 }
+.url {
+  float: right;
+  margin-top: 60px;
+  margin-right: 20px;
+}
 .SideText {
   font-family: "Do Hyeon";
   font-size: 40px;
