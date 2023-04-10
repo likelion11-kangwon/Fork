@@ -4,15 +4,26 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./public/style/dain.css?ver=1"/>
+    <link rel="stylesheet" href="./public/style/dain.css?ver=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css"
+    />
+    <link rel="stylesheet" href="/public/style/cursor.css" />
     <title>다인 소개 페이지</title>
   </head>
   <body class="body">
+    <div id="button" class="HoverButton"></div>
+
+    <p id="circle-content"></p>
+
+    <div id="cursor" class="Cursor"></div>
+
     <div class="SideTextDiv">
       <p class="SideText">
         ''
         <br />
-         안녕하세요.
+        안녕하세요.
         <br />
         <span class="SideTextSpan">꾸준함, 끈기, 인내심</span>
         <br />
@@ -48,13 +59,23 @@
     </div>
     <div class="InfoTo">
       <p class="MainText">● 수상 사항 -------------------</p>
-      <span class="text"> ◦ 2022.12 <DMMC with DMU> 창업경진대회 최우수상 <br /> </span>
-      <span class="text"> ◦ 2022.11 2022 스마트 ICT 경진대회 최우수상<br /> </span>
-      <span class="text"> ◦ 2022.11 동양미래 EXPO 제 40회 졸업작품전시회 최우수상 <br /> </span>
-      <span class="text"> ◦ 2021.12 2021 IOT창의공학 경진대회 장려상 <br /> </span>
+      <span class="text">
+        ◦ 2022.12 DMMC with DMU 창업경진대회 최우수상 <br />
+      </span>
+      <span class="text">
+        ◦ 2022.11 2022 스마트 ICT 경진대회 최우수상<br />
+      </span>
+      <span class="text">
+        ◦ 2022.11 동양미래 EXPO 제 40회 졸업작품전시회 최우수상 <br />
+      </span>
+      <span class="text">
+        ◦ 2021.12 2021 IOT창의공학 경진대회 장려상 <br />
+      </span>
       <p class="InfoToText">● MBTI -----------------------</p>
       <span class="text"> 😇 선의의 옹호자 INFJ 😇 <br /> </span>
       <img class="mbti" src="public/image/mbti.png" />
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/TweenMax.min.js"></script>
+    <script src="/public/js/cursor.js"></script>
   </body>
 </html>
