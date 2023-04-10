@@ -7,7 +7,7 @@ html {
   cursor: none;
   width: 1920px;
   height: 1080px;
-  background-color: #e0dad5;
+  /* background-color: #e0dad5; */
   overflow: hidden;
 }
 svg {
@@ -67,7 +67,7 @@ svg {
   display: block;
   transform: translateX(-112%) skew(-10deg);
 }
-h1 {
+/* h1 {
   color: #ee3d3d;
   position: relative;
   font-weight: normal;
@@ -76,7 +76,7 @@ h1 {
   margin: 0;
   font-size: 11vmax;
   mix-blend-mode: difference;
-}
+} */
 .images {
   position: absolute;
   left: 50%;
