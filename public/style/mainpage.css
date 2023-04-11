@@ -20,12 +20,12 @@ h4 {
   color: #565555;
 }
 
-h1 {
+/* h1 {
   font-family: "NanumSquareNeo-Variable";
   font-size: 80px;
   left: 300px;
   top: 300px;
-}
+} */
 
 h2 {
   font-size: 50px;
@@ -41,10 +41,29 @@ h3 {
 }
 
 h4 {
+  font-family: "NanumSquareNeo-Variable";
   font-size: 30px;
   color: #414141;
   left: 20px;
   bottom: 20px;
+}
+
+.text_title h1{
+  color: black;
+  font-size: 80px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+}
+
+.text_title{
+  height: 500px;
+  width: 500px;
+  padding-top: 90px;
+  padding-left: 60px;
+}
+
+.HL {
+  background-color: #ffffff;
 }
 
 /* --------------------------CLASS--------------------------- */
@@ -123,10 +142,14 @@ h4 {
   background-repeat: no-repeat;
 }
 #img-box-second {
- 
+  background-image: url("../image/");
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
 }
 #img-box-third {
-  background-image: url("/public/image/dain.jpg");
+  background-image: url("./public/image/dain.jpg");
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
