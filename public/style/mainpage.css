@@ -123,10 +123,7 @@ h4 {
   background-repeat: no-repeat;
 }
 #img-box-second {
-  background-image: url("../asset/main_pic.jpg");
-  background-size: cover;
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
+ 
 }
 #img-box-third {
   background-image: url("/public/image/dain.jpg");
@@ -135,5 +132,8 @@ h4 {
   background-repeat: no-repeat;
 }
 #img-box-fourth {
-  background-image: url();
+  background-image: url("../asset/main_pic.jpg");
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
 }
