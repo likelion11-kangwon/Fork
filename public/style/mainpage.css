@@ -49,25 +49,40 @@ h4 {
   bottom: 20px;
 }
 
+/* hr{
+  width: 200px;
+  float: left;
+  margin-top: 480px;
+  margin-left: 60px;
+  color: #414141;
+  border: 2px solid;
+} */
+
 .text_title h1{
   color: black;
   font-size: 85px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 800;
+  letter-spacing: -2px;
 }
+
+.text_title h5{
+  color: #414141;
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 10px;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 380px;
+}
+
+/* --------------------------CLASS--------------------------- */
 
 .text_title{
   height: 500px;
   width: 500px;
   padding-top: 90px;
-  padding-left: 70px;
+  padding-left: 100px;
 }
-
-.HL {
-  background-color: #ffffff;
-}
-
-/* --------------------------CLASS--------------------------- */
 
 /* 오른쪽 small box들의 flex 컨테이너 */
 .container-row {
@@ -128,12 +143,12 @@ h4 {
 }
 
 /* 멋사 사자 */
-#img-mslion {
+/* #img-mslion {
   width: 400px;
   position: absolute;
   left: -210px;
   top: 300px;
-}
+} */
 
 /* 여기에 각자 넣고 싶은 사진 */
 #img-box-first {
