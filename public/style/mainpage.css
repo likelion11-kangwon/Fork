@@ -136,27 +136,33 @@ h4 {
 
 /* 여기에 각자 넣고 싶은 사진 */
 #img-box-first {
-  background-image: url("/public/image/twMain.jpeg");
+  background-image: url("/public/image/TWMainDog.png");
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
 }
 #img-box-second {
-  background-image: url("../image/");
+  /* background-image: url("../image/");
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
-  
+   */
+
+  background-image: url();
+  background-image: url("/public/image/nothinking.jpeg");
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 #img-box-third {
-  background-image: url("./public/image/dain.jpg");
+  background-image: url("../image/dain.jpg");
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
 }
 #img-box-fourth {
-  background-image: url("../asset/main_pic2.jpg");
-  background-size: cover;
+  background-image: url("/public/asset/main_pic2.jpg");
   background-position: 50% 50%;
+  background-size: cover;
   background-repeat: no-repeat;
 }
