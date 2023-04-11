@@ -123,11 +123,7 @@ h4 {
   background-repeat: no-repeat;
 }
 #img-box-second {
-  background-image: url("/public/image/nothinking.jpeg");
-  background-position: 50% 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  top: 300px;
+  background-image: url();
 }
 #img-box-third {
   background-image: url("/public/image/dain.jpg");
@@ -136,5 +132,8 @@ h4 {
   background-repeat: no-repeat;
 }
 #img-box-fourth {
-  background-image: url();
+  background-image: url("/public/image/nothinking.jpeg");
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
