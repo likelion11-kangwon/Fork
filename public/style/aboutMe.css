@@ -26,7 +26,7 @@
   height: 100%;
   display: flex;
   flex-direction: column;
-  padding: 0 0 0 3rem;
+  padding: 0 0 0 64px;
   background-color: #50ff38;
   background-image: 
     linear-gradient(to right, grey 1px, transparent 1px),
@@ -49,7 +49,7 @@
 .introduction {
   width: 100%;
   height: 40%;
-  padding: 4.5rem 0 0 0;
+  padding: 90px 0 0 0;
 } /* 한줄소개 */
 
 .img {
@@ -59,13 +59,13 @@
 
 /* introduction 디자인 */
 .introduction p {
-  font-size: 2rem;
-  padding: 0 0 1.7rem 0;
+  font-size: 40px;
+  padding: 0 0 34.5px 0;
   font-weight: 600;
 }
 
 .big {
-  font-size: 3.2rem;
+  font-size: 64px;
   font-weight: 800;
   z-index: 100;
 }
@@ -140,8 +140,8 @@
 /* detail 세부 레이아웃 */
 .h1 {
   color: white;
-  font-size: 2.5rem;
-  margin: 0 0 2rem 0;
+  font-size: 50px;
+  margin: 0 0 40px 0;
   font-family: 'Times New Roman', Times, serif;
   font-style: italic;
   font-weight: 900;
@@ -189,8 +189,8 @@
 
 .aboutMe p {
   font-weight: 1000;
-  font-size: 1.3rem;
-  padding: 0 0 1rem 0;
+  font-size: 25px;
+  padding: 0 0 22px 0;
 }
 
 /* hobby 디자인 */
@@ -203,8 +203,8 @@
 
 .hobby p {
   font-weight: 600;
-  font-size: 1.3rem;
-  padding: 0 0 1rem 0;
+  font-size: 25px;
+  padding: 0 0 22px 0;
 }
 
 /* techStack 디자인 */
@@ -237,14 +237,14 @@
 } /* 개발을 하게 된 계기 */
 
 .meter h1 {
-  margin: 3.8rem 0 1.5rem 0;
+  margin: 75px 0 35px 0;
 }
 
 .meter p {
   font-weight: 600;
-  font-size: 1.2rem;
-  padding: 0 0 1rem 0;
-  line-height: 1.3rem;
+  font-size: 23px;
+  padding: 0 0 20px 0;
+  line-height: 27px;
 }
 
 .TWmbti {
@@ -255,14 +255,14 @@
 } /* mbti */
 
 .ENTJ {
-  font-size: 1.5rem;
+  font-size: 25px;
   font-weight: 800;
 }
 
 .TWmbti p {
   font-weight: 600;
-  font-size: 1.2rem;
-  padding: 0 0 1rem 0;
+  font-size: 25px;
+  padding: 0 0 20px 0;
 }
 
 .mbtiImg {
