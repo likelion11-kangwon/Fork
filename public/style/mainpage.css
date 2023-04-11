@@ -117,12 +117,20 @@ h4 {
 
 /* 여기에 각자 넣고 싶은 사진 */
 #img-box-first {
-  background-image: url("/public/image/twMain.jpeg");
+  background-image: url("/public/image/TWMainDog.png");
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
 }
 #img-box-second {
+<<<<<<< HEAD
+=======
+  background-image: url("/public/image/nothinking.jpeg");
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  top 300px;
+>>>>>>> 6d04784e2365156105a8741b5cefa5211d4a84b8
 }
 #img-box-third {
   background-image: url("/public/image/dain.jpg");
@@ -131,8 +139,5 @@ h4 {
   background-repeat: no-repeat;
 }
 #img-box-fourth {
-  background-image: url("../asset/main_pic.jpg");
-  background-size: cover;
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
+  background-image: url();
 }
