@@ -72,10 +72,10 @@
 
 .introShadow {
   position: absolute;
-  width: 435px;
-  height: 10%;
+  width: 376px;
+  height: 85px;
   background: black;
-  top: 305px;
+  top: 311px;
   left: 67.5px;
   z-index: -1;
   border-radius: 0.5rem;
