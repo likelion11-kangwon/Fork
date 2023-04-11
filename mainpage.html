@@ -5,9 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./public/style/mainpage.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css"
+    />
+    <link rel="stylesheet" href="/public/style/cursor.css" />
     <title>2제안춥조메인페이지</title>
   </head>
   <body>
+    <div id="button" class="HoverButton"></div>
+    <p id="circle-content"></p>
+    <div id="cursor" class="Cursor"></div>
     <div id="maindiv">
       <!-- 제목 big box -->
       <div>
@@ -48,4 +56,6 @@
       <div></div>
     </div>
   </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/TweenMax.min.js"></script>
+  <script src="/public/js/cursor.js"></script>
 </html>
