@@ -117,7 +117,7 @@ h4 {
 
 /* 여기에 각자 넣고 싶은 사진 */
 #img-box-first {
-  background-image: url("/public/image/twMain.jpeg");
+  background-image: url("/public/image/TWMainDog.png");
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
