@@ -72,10 +72,10 @@
 
 .introShadow {
   position: absolute;
-  width: 433px;
-  height: 86px;
+  width: 431px;
+  height: 89px;
   background: black;
-  top: 311px;
+  top: 308px;
   left: 67.5px;
   z-index: -1;
   border-radius: 0.5rem;
@@ -190,7 +190,7 @@
 } /* 나에 대한 간단한 정보 */
 
 .aboutMe p {
-  font-weight: 1000;
+  font-weight: 300;
   font-size: 25px;
   padding: 0 0 22px 0;
 }
@@ -204,7 +204,8 @@
 } /* 취미 */
 
 .hobby p {
-  font-weight: 600;
+  font-weight: 300;
+  font-style: italic;
   font-size: 25px;
   padding: 0 0 22px 0;
 }
@@ -231,11 +232,11 @@
 .meter {
   position: relative;
   top: -17px;
-  width: 60%;
-  height: 40%;
+  width: 390px;
+  height: 400px;
   display: flex;
   flex-direction: column;
-  left: 10%;
+  left: 65px;
 } /* 개발을 하게 된 계기 */
 
 .meter h1 {
@@ -243,7 +244,8 @@
 }
 
 .meter p {
-  font-weight: 600;
+  font-weight: 300;
+  font-style: italic;
   font-size: 23px;
   padding: 0 0 20px 0;
   line-height: 27px;
@@ -251,25 +253,26 @@
 
 .TWmbti {
   position: relative;
-  left: 10%;
-  width: 60%;
-  height: 60%;
+  left: 65px;
+  width: 390px;
+  height: 600px;
 } /* mbti */
 
 .ENTJ {
   font-size: 25px;
-  font-weight: 800;
+  font-weight: 300;
+  font-style: italic;
 }
 
 .TWmbti p {
-  font-weight: 600;
+  font-weight: 300;
   font-size: 25px;
   padding: 0 0 20px 0;
 }
 
 .mbtiImg {
-  width: 125%;
-  height: 65%;
+  width: 450px;
+  height: 370px;
   background-image: url("../image/TWmbti.png");
   background-position: -20% 50%;
   background-size: contain; 
