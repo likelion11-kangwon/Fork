@@ -50,6 +50,7 @@
   width: 547.2px;
   height: 367.2px;
   padding: 90px 0 0 0;
+  position: relative;
 } /* 한줄소개 */
 
 .img {
@@ -76,7 +77,7 @@
   height: 89px;
   background: black;
   top: 308px;
-  left: 67.5px;
+  left: 4px;
   z-index: -1;
   border-radius: 0.5rem;
 }
