@@ -71,6 +71,7 @@
   font-weight: 600;
   display: flex;
   align-items: center;
+  text-align: center;
 }
 
 .fir_span {
