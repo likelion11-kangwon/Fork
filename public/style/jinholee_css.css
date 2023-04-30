@@ -199,7 +199,7 @@ li::marker {
   text-align: center;
 }
 #img-mbti {
-  background-image: url("./public/image/jinmbti.png");
+  background-image: url("../image/jinmbti.png");
   background-size: 350px;
   width: 350px;
   height: 350px;
