@@ -236,7 +236,7 @@
 .techStackImg {
   width: 400px;
   height: 75px;
-  background-image: url(../image//TSimg-removebg-preview.png);
+  background-image: url("../image//TSimg-removebg-preview.png");
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;

@@ -137,14 +137,14 @@ h4 {
 
 /* 여기에 각자 넣고 싶은 사진 */
 #img-box-first {
-  background-image: url("/public/image/TWMainDog.png");
+  background-image: url("../image/TWMainDog.png");
 }
 #img-box-second {
-  background-image: url("/public/image/nothinking.jpeg");
+  background-image: url("../image/nothinking.jpeg");
 }
 #img-box-third {
   background-image: url("../image/dain.jpg");
 }
 #img-box-fourth {
-  background-image: url("/public/asset/main_pic2.jpg");
+  background-image: url("../asset/main_pic2.jpg");
 }
